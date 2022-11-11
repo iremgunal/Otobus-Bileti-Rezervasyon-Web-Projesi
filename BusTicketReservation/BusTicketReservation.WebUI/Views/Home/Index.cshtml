@@ -1,0 +1,49 @@
+﻿@model TicketRouteModel
+    <form asp-controller="Home" asp-action="TripList">
+
+        <div class="col-sm-8 offset-4">
+            <div class="card" style="width: 25rem;">
+                <div class="card-body opacity-75 " style="background-color:#334257">
+                    <h5 class="card-title text-white">Buy Ticket</h5>
+                    <select class="form-select" asp-for="FromWhereId">
+                        <option selected>From Where </option>
+
+                        @foreach (var city in Model.Cities)
+                        {
+                            <option value="@city.CityId">@city.CityName </option>
+
+                        }
+
+                    </select>
+
+
+
+
+
+                    <select class="form-select mt-2" asp-for="ToWhereId">
+                        <option selected>To Where </option>
+
+                        @foreach (var city in Model.Cities)
+                        {
+                            <option value="@city.CityId"> @city.CityName </option>
+
+
+                        }
+
+                    </select>
+                    <input asp-for="TripDate" class="form-control mt-2 " type="date" value=@Model.TripDate />
+
+
+                    @*           <input class="form-control mt-2" type="number" placeholder="Passengers" />*@
+
+
+
+
+                    <button class="btn btn-sm mt-2 fw-bold container-fluid" style="background-color:#FF884B" type="submit"> Search</button>
+
+
+                </div>
+            </div>
+        </div>
+    </form>
+<

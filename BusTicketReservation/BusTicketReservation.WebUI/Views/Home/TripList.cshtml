@@ -1,0 +1,71 @@
+﻿@model List<TripListModel>
+
+@if (Model.Count == 0)
+{
+    <div class="card card-body bg-danger text-center">
+        <h3>No trips found on the date you selected</h3>
+    </div>
+}
+else
+{
+    <h3>Select Trip</h3>
+    @foreach (var trips in Model)
+    {
+        
+
+        <div class="card mt-2 justify-content-between">
+            <div class="card-body" style="background-color:#FFFFFF">
+                <div class="row justify-content-around fw-bold">
+                    <div class="col-md-2">
+                        From Where 
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2">
+                        To Where
+                    </div>
+                    <div class="col-md-2">
+                        
+                        Time
+                    </div>
+                    <div class="col-md-2">
+                        Price
+                    </div>
+                    <div class="col-md-3">
+
+                    </div>
+                </div>
+                <hr>
+                <div class="row ">
+                    <div class="col-md-2">
+                        @trips.FromWhere.CityName 
+                    </div>
+                    <div class="col-md-1">
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+                    <div class="col-md-2">
+                        @trips.ToWhere.CityName
+                    </div>
+                    <div class="col-md-2">
+                        
+                        @trips.TripTime
+                    </div>
+                    <div class="col-md-2">
+                        @trips.Price
+                    </div>
+                    <div class="col-md-3 ">
+                    <button class="btn btn-sm btn-white fw-bold" style="background-color:#6DCB00" type="submit"> Continue</button>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+    }
+}
+
