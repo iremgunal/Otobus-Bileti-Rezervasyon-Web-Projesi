@@ -19,9 +19,10 @@ namespace BusTicketReservation.Data.Concrete.EfCore
             _dbContext = dbContext;
         }
 
-        public Task CreateAsync(TEntity entity)
+        public async Task CreateAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            await _dbContext.AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
         }
 
         public void Delete(TEntity entity)

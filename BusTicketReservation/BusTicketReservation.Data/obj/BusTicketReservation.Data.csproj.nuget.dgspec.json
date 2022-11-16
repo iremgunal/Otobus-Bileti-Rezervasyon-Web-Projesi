@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {}
+    "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
+    "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
         "projectName": "BusTicketReservation.Data",
-        "projectPath": "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
-        "packagesPath": "C:\\Users\\irem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Data\\obj\\",
+        "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
+        "packagesPath": "C:\\Users\\ÖĞLE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ÖĞLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
-                "projectPath": "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
+              "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+                "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
               }
             }
           }
@@ -69,8 +65,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,25 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+    "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
         "projectName": "BusTicketReservation.Entity",
-        "projectPath": "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
-        "packagesPath": "C:\\Users\\irem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irem\\Desktop\\10-11-2022\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
+        "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+        "packagesPath": "C:\\Users\\ÖĞLE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ÖĞLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,8 +119,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

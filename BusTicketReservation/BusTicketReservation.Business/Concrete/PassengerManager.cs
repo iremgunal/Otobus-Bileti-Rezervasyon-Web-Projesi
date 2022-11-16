@@ -1,4 +1,5 @@
 ﻿using BusTicketReservation.Business.Abstract;
+using BusTicketReservation.Data.Abstract;
 using BusTicketReservation.Entity;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,16 @@ namespace BusTicketReservation.Business.Concrete
 {
     public class PassengerManager : IPassengerService
     {
-        public Task CreateAsync(Passenger passenger)
+        private IPassengerRepository _passengerRepository;
+
+        public PassengerManager(IPassengerRepository passengerRepository)
         {
-            throw new NotImplementedException();
+            _passengerRepository = passengerRepository;
+        }
+
+        public async Task CreateAsync(Passenger passenger)
+        {
+            await _passengerRepository.CreateAsync(passenger);
         }
 
         public void Delete(int id)
@@ -25,9 +33,9 @@ namespace BusTicketReservation.Business.Concrete
             throw new NotImplementedException();
         }
 
-        public Task<Passenger> GetByIdAsync(int id)
+        public async Task<Passenger> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _passengerRepository.GetByIdAsync(id);
         }
 
         public void Update(Passenger passenger)

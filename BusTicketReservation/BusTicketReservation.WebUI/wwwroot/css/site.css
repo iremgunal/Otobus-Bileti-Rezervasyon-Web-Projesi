@@ -14,5 +14,26 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: 'Sono', sans-serif;
+}
+
+.btn-continue {
+    background-color: #73d71e;
+    color:white;
+    font-weight:bold;
+    font-family:monospace;
+}
+
+    .btn-continue:hover {
+        background-color: #61b41a;
+        color: white;
+        font-size: 17px;
+    }
+    
+
+.logo {
+    color:white;
+    text-align:center;
+    font-weight:600;
 }

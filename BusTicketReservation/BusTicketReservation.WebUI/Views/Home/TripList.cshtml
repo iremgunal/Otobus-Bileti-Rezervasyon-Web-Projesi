@@ -8,6 +8,7 @@
 }
 else
 {
+    <form asp-controller="Home" asp-action="Passenger">
     <h3>Select Trip</h3>
     @foreach (var trips in Model)
     {
@@ -50,13 +51,13 @@ else
                     </div>
                     <div class="col-md-2">
                         
-                        @trips.TripTime
+                        @trips.TripTime.ToString("t")
                     </div>
                     <div class="col-md-2">
-                        @trips.Price
+                        @trips.Price ₺
                     </div>
                     <div class="col-md-3 ">
-                    <button class="btn btn-sm btn-white fw-bold" style="background-color:#6DCB00" type="submit"> Continue</button>
+                            <button class="btn btn-sm btn-continue fw-bold"  type="submit"> Continue ></button>
                 </div>
                 </div>
                 
@@ -67,5 +68,6 @@ else
 
 
     }
+    </form>
 }
 

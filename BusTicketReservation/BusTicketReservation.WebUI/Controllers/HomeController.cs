@@ -1,6 +1,7 @@
 ﻿using BusTicketReservation.Business.Abstract;
 using BusTicketReservation.Entity;
 using BusTicketReservation.WebUI.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.VisualBasic;
@@ -70,9 +71,60 @@ namespace BusTicketReservation.WebUI.Controllers
 
             
         }
+        public async Task<IActionResult> SeatSelect()
+        {
+            return View();
+        }
+
+        //[HttpPost]
+        //public async Task<IActionResult> SeatSelect()
+        //{
 
 
+        //    return View();
+        //}
 
+     
+        public IActionResult Passenger()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Passenger(PassengerModel passengerModel)
+        {
+            if (ModelState.IsValid)
+            {
+                Passenger passenger = new Passenger()
+                {
+                    FirstName = passengerModel.FirstName,
+                    LastName = passengerModel.LastName,
+                    Email = passengerModel.Email,
+                    PhoneNumber = passengerModel.PhoneNumber
+                };
+                var result = _passengerService.CreateAsync(passenger);
+                
+            }
+            return View(passengerModel);
+        }
+
+        //public async  Task<IActionResult> Ticket(PassengerModel passengerModel, int id)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var tickets = await _passengerService.GetByIdAsync(id);
+        //        TicketModel ticketModel = new TicketModel()
+        //        {
+        //            FirstName = tickets.FirstName,
+        //            LastName = tickets.LastName,
+        //            Email = tickets.Email,
+        //            PhoneNumber = tickets.PhoneNumber
+        //        };
+        //        return View(ticketModel);
+        //    }
+
+        //    return View();
+        //}
 
     }
 }
