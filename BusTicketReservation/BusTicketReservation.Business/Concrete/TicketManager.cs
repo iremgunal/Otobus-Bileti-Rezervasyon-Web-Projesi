@@ -18,29 +18,47 @@ namespace BusTicketReservation.Business.Concrete
             _ticketRepository = ticketRepository;
         }
 
-        public Task CreateAsync(Ticket ticket)
+        public async Task CreateAsync(Ticket ticket)
         {
-            throw new NotImplementedException();
+            await _ticketRepository.CreateAsync(ticket);
         }
 
-        public void Delete(int id)
+       
+
+        public void Delete(Ticket ticket)
         {
-            throw new NotImplementedException();
+            _ticketRepository.Delete(ticket);
         }
 
-        public Task<List<Ticket>> GetAllAsync()
+        public async Task<List<Ticket>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _ticketRepository.GetAllAsync();
+
         }
 
-        public Task<Ticket> GetByIdAsync(int id)
+        public async Task<Ticket> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _ticketRepository.GetByIdAsync(id);
+        }
+
+        public List<int> GetReservedSeat(int id)
+        {
+            return _ticketRepository.GetReservedSeat(id);
+        }
+
+        public async Task<Ticket> GetTicketByTrip(int id)
+        {
+            return await _ticketRepository.GetTicketByTrip(id);
+        }
+
+        public async Task<Ticket> GetTicketDetails(int id)
+        {
+            return await _ticketRepository.GetTicketDetails(id);
         }
 
         public void Update(Ticket ticket)
         {
-            throw new NotImplementedException();
+            _ticketRepository.Update(ticket);
         }
     }
 }

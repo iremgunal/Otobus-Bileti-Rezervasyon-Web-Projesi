@@ -1,49 +1,58 @@
 ﻿@model TicketRouteModel
-    <form asp-controller="Home" asp-action="TripList">
 
-        <div class="col-sm-8 offset-4">
-            <div class="card shadow " style="width: 25rem;">
-                <div class="card-body opacity-75 " style="background-color:#FFFF">
-                    <h5 class="card-title text-dark">Search Trip</h5>
-                    <select class="form-select" asp-for="FromWhereId">
-                        <option selected>From Where </option>
+<form asp-controller="Home" asp-action="TripList">
+    
+    <div class="row justify-context-between align-items-center">
+        <div class="col-sm-6">
+            <img src="/images/logom.png" />
+        </div>
+        <div class="col-sm-6 ">
+            <div class="card shadow " style="width: 30rem;">
+                <div class="card-body opacity-75  " style="background-color:#FFFF">
+                    <h5 class="card-title text-dark fw-bold text-center">Search Trip</h5>
+                    <div class="row">
+                        <select class="form-select " asp-for="FromWhereId">
+                            <option selected>From Where </option>
 
-                        @foreach (var city in Model.Cities)
-                        {
-                            <option value="@city.CityId">@city.CityName </option>
+                            @foreach (var city in Model.Cities)
+                            {
+                                <option value="@city.CityId">@city.CityName </option>
 
-                        }
+                            }
+                        </select>
+                        <span asp-validation-for="FromWhereId" class="text-danger ms-1"></span>
 
-                    </select>
+                    </div>
+                    <div class="row" >
+                        <select class="form-select mt-2" asp-for="ToWhereId">
+                            <option selected>To Where </option>
 
-
-
-
-
-                    <select class="form-select mt-2" asp-for="ToWhereId">
-                        <option selected>To Where </option>
-
-                        @foreach (var city in Model.Cities)
-                        {
-                            <option value="@city.CityId"> @city.CityName </option>
-
-
-                        }
-
-                    </select>
-                    <input asp-for="TripDate" class="form-control mt-2 " type="date" value=@Model.TripDate />
+                            @foreach (var city in Model.Cities)
+                            {
+                                <option value="@city.CityId"> @city.CityName </option>
 
 
-                    @*           <input class="form-control mt-2" type="number" placeholder="Passengers" />*@
+                            }
 
+                        </select>
+                        <span asp-validation-for="ToWhereId" class="text-danger ms-1"></span>
 
+                    </div>
+                   <div class="row">
 
+                        <input asp-for="TripDate" class="form-control mt-2 " type="date" value=@Model.TripDate />
+                        <span asp-validation-for="TripDate" class="text-danger ms-1"></span>
 
-                <button class="btn btn-sm btn-continue fw-bold container-fluid mt-2" style="background-color:#ffad00"  type="submit"> Search</button>
+                   </div>           
 
+                    <button class="btn btn-sm btn-continue fw-bold container-fluid mt-2" style="background-color:#ffad00" type="submit"> Search</button>
 
                 </div>
             </div>
         </div>
-    </form>
+    </div>
+</form>
 
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

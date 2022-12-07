@@ -1,5 +1,6 @@
 ﻿using BusTicketReservation.Data.Abstract;
 using BusTicketReservation.Entity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,16 @@ namespace BusTicketReservation.Data.Concrete.EfCore
             {
                 return _dbContext as BusContext;
             }
+        }
+
+        public int GetSeats(int id)
+        {
+            var result = context
+              .Trips
+              .Where(t=>t.TripId==id)
+              .Include(t=>t.Bus)
+              .FirstOrDefault();
+            return result.Bus.SeatCapacity;
         }
     }
 }

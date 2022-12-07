@@ -8,49 +8,145 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BusTicketReservation.WebUI
 build_property.RootNamespace = BusTicketReservation.WebUI
-build_property.ProjectDir = C:\Users\irem\Desktop\Otobus-Bileti-Rezervasyon-Web-Projesi\BusTicketReservation\BusTicketReservation.WebUI\
+build_property.ProjectDir = C:\Users\irem\Desktop\MyProject\off\Proje_OtobüsBiletiRezervasyon\BusTicketReservation\BusTicketReservation.WebUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\irem\Desktop\Otobus-Bileti-Rezervasyon-Web-Projesi\BusTicketReservation\BusTicketReservation.WebUI
+build_property.MSBuildProjectDirectory = C:\Users\irem\Desktop\MyProject\off\Proje_OtobüsBiletiRezervasyon\BusTicketReservation\BusTicketReservation.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/Index.cshtml]
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/AllTripList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsVHJpcExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/BusCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQnVzQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/BusEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQnVzRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/BusList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQnVzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/ChangeUserPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhbmdlVXNlclBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/CityCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2l0eUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/CityEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2l0eUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/CityList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2l0eUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/RoleCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/RoleEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/RoleList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/TicketList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlja2V0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/TripCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHJpcENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/TripEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHJpcEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/UserCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/UserEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Admin/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/Passenger.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXNzZW5nZXIuY3NodG1s
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/TicketDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaWNrZXREZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/TicketInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaWNrZXRJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/SeatSelect.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWF0U2VsZWN0LmNzaHRtbA==
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/TicketReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaWNrZXRSZXNlcnZhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/Ticket.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaWNrZXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/TripList.cshtml]
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Home/TripList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmlwTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_DataTablesCssPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXRhVGFibGVzQ3NzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_DataTablesScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXRhVGFibGVzU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_NoRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob1JlY29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/_ViewImports.cshtml]
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/_ViewStart.cshtml]
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/irem/Desktop/Otobus-Bileti-Rezervasyon-Web-Projesi/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_Layout.cshtml]
+[C:/Users/irem/Desktop/MyProject/off/Proje_OtobüsBiletiRezervasyon/BusTicketReservation/BusTicketReservation.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2zlz8bkid6

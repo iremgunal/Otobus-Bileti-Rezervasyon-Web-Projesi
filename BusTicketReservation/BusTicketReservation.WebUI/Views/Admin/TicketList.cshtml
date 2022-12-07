@@ -1,0 +1,66 @@
+﻿@model List<Ticket>
+
+<h1 class="display-5 text-dark">Ticket List</h1>
+<hr />
+
+
+@if (Model.Count > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">TripId</th>
+                <th scope="col">Passenger Id</th>
+                <th scope="col">Bus Id</th>
+                <th scope="col">Seat No</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in Model)
+            {
+                <tr>
+
+                    <td>@ticket.TicketId</td>
+                    <td>@ticket.TripId</td>
+                    <td>@ticket.PassengerId</td>
+                    <td>@ticket.BusId</td>
+                    <td>@ticket.SeatNo</td>
+                    <td>
+                        
+                      
+                        <button type="button" class="btn btn-sm btn-continue fw-bold btn-delete" data-bs-toggle="modal" data-bs-target="#DeleteModal_@ticket.TicketId">
+                            Delete
+                        </button>
+                        <div class="modal fade" id="DeleteModal_@ticket.TicketId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-danger">This ticket will be deleted!</p>
+                                        <p>Are you sure?</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                        <a asp-controller="Admin"
+                                   asp-action="TicketDelete"
+                                   asp-route-id=@ticket.TicketId
+                                   class="btn btn-danger">Yes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

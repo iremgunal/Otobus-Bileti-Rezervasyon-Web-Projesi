@@ -37,3 +37,37 @@ body {
     text-align:center;
     font-weight:600;
 }
+.btn-delete {
+    background-color: #e97984;
+    color:white;
+    font-weight:bold;
+    font-family:monospace;
+}
+    .btn-delete:hover {
+        background-color: #dc3545;
+        color: white;
+        font-size: 15px;
+    }
+.btn-edit {
+    background-color: #f7ce5e;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+    .btn-edit:hover {
+        background-color: #decb3d;
+        color: white;
+        font-size: 15px;
+    }
+
+.btn-create {
+    background-color: #73d71e;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+    .btn-create:hover {
+        background-color: #61b41a;
+        color: white;
+        font-size: 17px;
+    }

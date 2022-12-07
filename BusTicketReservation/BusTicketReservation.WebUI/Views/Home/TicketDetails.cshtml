@@ -1,0 +1,115 @@
+﻿@model TicketDetailsModel
+
+<div class="display-6 text-dark ms-2 text-center">
+    Ticket
+</div>
+<hr>
+<div class="card shadow" style="background-color:#73d71e">
+    <div class="card-title">
+
+
+        <div class="row justify-content-between ">
+            @*bilet basliği*@
+            <div class="col-md-7 ">
+                <h3>Ticket</h3>
+            </div>
+            <div class="col-md-5 text-end pe-5">
+                <img src="/images/bu.png" height="50" />
+            </div>
+        </div>
+
+    </div>
+    <div class="card-body p-1" style="background-color:#fff">
+        <div class="row justify-content-around m1">
+            <div class="col-md-5">
+                @*yolcu bilgi*@
+                <div class="row fw-bold text-center">Passenger Information</div>
+                <div class="row">
+                    <div class="col-md-4 p-0 fw-bold ">
+                        First Name
+                    </div>
+                    <div class="col-md-5 p-0 ">
+                        @*@Model.Passenger.FirstName*@
+                        @Model.Passenger.FirstName
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-4 p-0 fw-bold ">
+                        Last Name
+                    </div>
+                    <div class="col-md-5 p-0 ">
+                        @*@Model.LastName*@
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 p-0 fw-bold ">
+                        E-Mail
+                    </div>
+                    <div class="col-md-5  p-0 ">
+                        @*@Model.Email*@
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 p-0 fw-bold ">
+                        Phone Number
+                    </div>
+                    <div class="col-md-5 p-0">
+                        @*@Model.PhoneNumber*@
+                    </div>
+                </div>
+            </div>
+
+
+            @*bilet bilgi*@
+            <div class="col-md-5">
+                @*yolcu bilgi*@
+                <div class="row fw-bold text-center">Trip Information</div>
+                <div class="row">
+                    <div class="col-md-3 p-0 fw-bold ">
+                        From
+                    </div>
+                    <div class="col-md-3 p-0 ">
+                        @Model.FromWhere
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 p-0 fw-bold ">
+                        To
+                    </div>
+                    <div class="col-md-3 p-0 ">
+                        @Model.ToWhere
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 p-0 fw-bold ">
+                        Date
+                    </div>
+                    <div class="col-md-3  p-0 ">
+                        @*@Model.TripDate.ToString("d")*@
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 p-0 fw-bold ">
+                        Time
+                    </div>
+                    <div class="col-md-3 p-0">
+                        @*@Model.TripTime*@
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 p-0 fw-bold ">
+                        Seat Number @Model.Ticket.SeatNo
+                    </div>
+                    <div class="col-md-3 p-0">
+                        @*@Model.SeatNo*@
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 pe-0">
+                <img src="/images/barkod.png" class="container-fluid justify-context-end me-0 pe-0" height="150px" />
+            </div>
+        </div>
+    </div>
+
+
+   

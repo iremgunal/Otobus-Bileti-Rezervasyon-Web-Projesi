@@ -9,5 +9,7 @@ namespace BusTicketReservation.Data.Abstract
 {
     public interface IBusRepository : IRepository<Bus>
     {
+        int GetSeats(int id);
+
     }
 }

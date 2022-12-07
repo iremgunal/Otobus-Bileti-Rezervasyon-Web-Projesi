@@ -1,4 +1,5 @@
 ﻿using BusTicketReservation.Business.Abstract;
+using BusTicketReservation.Data.Abstract;
 using BusTicketReservation.Entity;
 using System;
 using System.Collections.Generic;
@@ -11,29 +12,41 @@ namespace BusTicketReservation.Business.Concrete
 {
     public class BusManager : IBusService
     {
-        public Task CreateAsync(Bus bus)
+        private IBusRepository _busRepository;
+
+        public BusManager(IBusRepository busRepository)
         {
-            throw new NotImplementedException();
+            _busRepository = busRepository;
         }
 
-        public void Delete(int id)
+        public async Task CreateAsync(Bus bus)
         {
-            throw new NotImplementedException();
+            await _busRepository.CreateAsync(bus);
         }
 
-        public Task<List<Bus>> GetAllAsync()
+        public void Delete(Bus bus)
         {
-            throw new NotImplementedException();
+            _busRepository.Delete(bus);
         }
 
-        public Task<Bus> GetByIdAsync(int id)
+        public async Task<List<Bus>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _busRepository.GetAllAsync();  
+        }
+
+        public async Task<Bus> GetByIdAsync(int id)
+        {
+            return await _busRepository.GetByIdAsync(id);
+        }
+
+        public int GetSeats(int id)
+        {
+            return _busRepository.GetSeats(id);
         }
 
         public void Update(Bus bus)
         {
-            throw new NotImplementedException();
+             _busRepository.Update(bus);
         }
     }
 }

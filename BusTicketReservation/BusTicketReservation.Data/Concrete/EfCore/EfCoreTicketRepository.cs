@@ -1,5 +1,6 @@
 ﻿using BusTicketReservation.Data.Abstract;
 using BusTicketReservation.Entity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,34 @@ namespace BusTicketReservation.Data.Concrete.EfCore
             {
                 return _dbContext as BusContext;
             }
+        }
+
+        public async Task<Ticket> GetTicketDetails(int id)
+        {
+            return await context
+                .Tickets
+                .Where(t => t.TicketId == id)
+                .Include(t => t.Trip)
+                .Include(t => t.Passenger)
+                .FirstOrDefaultAsync();
+        }
+       
+
+
+        public async Task<Ticket> GetTicketByTrip(int id)
+        {
+            return await context
+                .Tickets
+                .Where(t => t.TripId == id)
+                .FirstOrDefaultAsync();
+        }
+
+        public List<int> GetReservedSeat(int id)
+        {
+            return context.Tickets
+               .Where(t => t.TripId == id)
+               .Select(t => t.SeatNo)
+               .ToList();
         }
     }
 }

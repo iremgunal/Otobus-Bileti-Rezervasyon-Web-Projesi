@@ -27,7 +27,8 @@ namespace BusTicketReservation.Data.Concrete.EfCore
 
         public void Delete(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbContext.Remove(entity);
+            _dbContext.SaveChanges();
         }
 
         public async Task<List<TEntity>> GetAllAsync()
@@ -46,7 +47,8 @@ namespace BusTicketReservation.Data.Concrete.EfCore
 
         public void Update(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbContext.Set<TEntity>().Update(entity);
+            _dbContext.SaveChanges();
         }
     }
 }

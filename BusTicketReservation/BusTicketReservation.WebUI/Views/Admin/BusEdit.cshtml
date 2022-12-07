@@ -1,0 +1,33 @@
+﻿@model BusEditModel
+
+<h1>Edit Bus</h1>
+<hr />
+<form asp-controller="Admin" asp-action="BusEdit" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="BusId" value=@Model.BusId />
+    <div class="row">
+        <div class="col-md-8">
+           
+       
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label asp-for="SeatCapacity"></label>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control " type="text" asp-for="SeatCapacity" />
+
+                </div>
+                <span asp-validation-for="SeatCapacity" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-4 offset-3  ">
+                    <button class="form-control btn btn-sm btn-continue fw-bold" type="submit">Save Changes</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</form>
+

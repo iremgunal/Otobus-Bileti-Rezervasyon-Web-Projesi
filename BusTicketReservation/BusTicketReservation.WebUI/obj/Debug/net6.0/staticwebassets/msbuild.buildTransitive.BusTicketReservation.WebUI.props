@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BusTicketReservation.WebUI.props" />
+</Project>

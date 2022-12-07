@@ -9,5 +9,8 @@ namespace BusTicketReservation.Data.Abstract
 {
     public interface IPassengerRepository : IRepository<Passenger>
     {
+        Task CreateAsync(Passenger passenger, int seatNumber, int id);
+
+
     }
 }

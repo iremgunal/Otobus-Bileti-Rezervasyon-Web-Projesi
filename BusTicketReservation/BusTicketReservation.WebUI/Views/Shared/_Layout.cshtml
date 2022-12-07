@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Newtonsoft.Json
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -11,54 +12,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;600&display=swap" rel="stylesheet">
-
+    @await RenderSectionAsync("Styles", false)
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body style="background-color:#f7f7f7">
     <header>
-        <nav class="navbar-fixed-top navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color:#73d71e;">
-            <div class="container logo">
-                <a class="navbar-brand logo text-white " asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="/images/bu.png" width="50" />
-                    <h4 class="fw-bold">Bus Ticket Reservation</h4>
-                    <h6>Discover the world with us!</h6>
-                    
-                
-                
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between fw-bold">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Register</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        @await Html.PartialAsync("_Header")
+        
     </header>
     <div class="container ">
         <main role="main" class="">
+            @if (TempData["AlertMessage"] != null)
+            {
+                AlertMessage alertMessage = JsonConvert.DeserializeObject<AlertMessage>(TempData["AlertMessage"] as String);
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-@alertMessage.AlertType alert-dismissible fade show">
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            <div class="text-danger">@alertMessage.Title</div>
+                            <hr>
+                            <div>@alertMessage.Message</div>
+                        </div>
+                    </div>
+                </div>
+            }
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - BusTicketReservation.WebUI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+        @await Html.PartialAsync("_Footer")        
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

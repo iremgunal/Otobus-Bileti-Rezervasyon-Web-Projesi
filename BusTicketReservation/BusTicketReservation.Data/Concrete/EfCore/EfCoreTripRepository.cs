@@ -23,7 +23,65 @@ namespace BusTicketReservation.Data.Concrete.EfCore
             }
         }
 
-    
+        public Task<Trip> GetBusInfo(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public decimal GetPrice(int id)
+        {
+            return context
+                .Trips
+                .Where(t => t.TripId == id)
+                .Select(t => t.Price)
+                .FirstOrDefault();
+        }
+
+        public async Task<Trip> GetSeatCapacity(int id)
+        {
+            return await context
+                .Trips
+                .Where(t => t.TripId == id)
+                .Include(t => t.Tickets)
+                .Include(t => t.Bus)
+                .FirstOrDefaultAsync();
+        }
+
+        public int GetSeats(int id)
+        {
+            var result = context
+               .Trips
+               .Where(t => t.TripId == id)
+               .Include(t => t.Bus)
+               .FirstOrDefault();
+            return result.Bus.SeatCapacity;
+        }
+
+        public async Task<Trip> GetTripById(int id)
+        {
+            return await context
+                 .Trips
+                 .Where(t => t.TripId == id)
+                 .Include(t => t.FromWhere)
+                 .Include(t => t.ToWhere)
+                 .FirstOrDefaultAsync();
+        }
+
+        public int GetTrips(int tripId)
+        {
+            return context
+                .Trips
+                .Where(t => t.TripId == tripId)
+                .Include(t=>t.Tickets)
+                .Include(t=>t.Bus.BusId)              
+                .Select(t => t.Bus.SeatCapacity)                
+                .FirstOrDefault();
+                
+            
+                
+                
+        }
+
         public async Task<List<Trip>> GetTripsAsync(int fromWhereId, int toWhereId, DateTime tripDate)
         {
             return await context
@@ -33,5 +91,7 @@ namespace BusTicketReservation.Data.Concrete.EfCore
                 .Include(t=>t.ToWhere)                
                 .ToListAsync();
         }
+
+        
     }
 }

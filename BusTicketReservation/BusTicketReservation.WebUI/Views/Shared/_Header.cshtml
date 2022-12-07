@@ -1,0 +1,64 @@
+﻿<nav class="navbar-fixed-top navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color:#73d71e;">
+    <div class="container logo">
+        <a class="navbar-brand logo text-white " asp-area="" asp-controller="Home" asp-action="Index">
+            
+                    <img src="/images/headerlogo.png" width="300" />
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between fw-bold">
+            <ul class="navbar-nav flex-grow-1">
+                
+                @if (User.Identity.IsAuthenticated)
+                {
+                    @if (User.IsInRole("Admin"))
+                    {
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="AllTripList">Trips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="CityList">Cities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="BusList">Buses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="TicketList">Tickets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="UserList">Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="RoleList">Roles</a>
+                        </li>
+                    }
+
+                }
+            </ul>
+            <ul class="navbar-nav">
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Admin" asp-action="RoleList">@User.Identity.Name</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>

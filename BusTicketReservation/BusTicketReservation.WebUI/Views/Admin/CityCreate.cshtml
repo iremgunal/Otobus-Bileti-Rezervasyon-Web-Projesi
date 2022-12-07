@@ -1,0 +1,31 @@
+﻿@model CityEditModel
+
+<h1>Create City</h1>
+<hr />
+<form asp-controller="Admin" asp-action="CityCreate" method="post" enctype="multipart/form-data">
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label asp-for="CityName"></label>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control " type="text" asp-for="CityName" />
+
+                </div>
+                <span asp-validation-for="CityName" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-4 offset-3  ">
+                    <button class="form-control btn btn-sm btn-continue fw-bold" type="submit">Create New City</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</form>
+

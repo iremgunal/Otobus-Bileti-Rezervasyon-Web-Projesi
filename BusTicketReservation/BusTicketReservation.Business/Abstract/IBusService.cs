@@ -15,6 +15,8 @@ namespace BusTicketReservation.Business.Abstract
 
         Task CreateAsync(Bus bus);
         void Update(Bus bus);
-        void Delete(int id);
+        void Delete(Bus bus);
+
+        int GetSeats(int id);
     }
 }

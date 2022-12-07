@@ -9,5 +9,9 @@ namespace BusTicketReservation.Data.Abstract
 {
     public interface ITicketRepository : IRepository<Ticket>
     {
+        Task<Ticket> GetTicketDetails(int id);
+        Task<Ticket> GetTicketByTrip(int id);
+        List<int> GetReservedSeat(int id);
+
     }
 }

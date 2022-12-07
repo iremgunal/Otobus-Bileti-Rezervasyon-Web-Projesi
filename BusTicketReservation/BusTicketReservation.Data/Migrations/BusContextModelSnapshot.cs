@@ -239,7 +239,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 1,
                             BusId = 1,
                             FromWhereId = 1,
-                            Price = 100m,
+                            Price = 429m,
                             ToWhereId = 5,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -249,7 +249,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 2,
                             BusId = 1,
                             FromWhereId = 1,
-                            Price = 100m,
+                            Price = 129m,
                             ToWhereId = 2,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -259,7 +259,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 3,
                             BusId = 1,
                             FromWhereId = 1,
-                            Price = 100m,
+                            Price = 189m,
                             ToWhereId = 3,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -269,7 +269,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 4,
                             BusId = 1,
                             FromWhereId = 1,
-                            Price = 100m,
+                            Price = 399m,
                             ToWhereId = 4,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -279,7 +279,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 5,
                             BusId = 1,
                             FromWhereId = 2,
-                            Price = 100m,
+                            Price = 149m,
                             ToWhereId = 3,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -289,7 +289,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 6,
                             BusId = 1,
                             FromWhereId = 2,
-                            Price = 100m,
+                            Price = 429m,
                             ToWhereId = 4,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -299,7 +299,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 7,
                             BusId = 1,
                             FromWhereId = 2,
-                            Price = 100m,
+                            Price = 469m,
                             ToWhereId = 5,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -309,7 +309,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 8,
                             BusId = 1,
                             FromWhereId = 3,
-                            Price = 100m,
+                            Price = 419m,
                             ToWhereId = 4,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -319,7 +319,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 9,
                             BusId = 1,
                             FromWhereId = 3,
-                            Price = 100m,
+                            Price = 449m,
                             ToWhereId = 5,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -329,7 +329,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 10,
                             BusId = 1,
                             FromWhereId = 4,
-                            Price = 100m,
+                            Price = 119m,
                             ToWhereId = 5,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -339,7 +339,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 11,
                             BusId = 1,
                             FromWhereId = 6,
-                            Price = 100m,
+                            Price = 469m,
                             ToWhereId = 1,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -349,7 +349,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 12,
                             BusId = 1,
                             FromWhereId = 6,
-                            Price = 100m,
+                            Price = 169m,
                             ToWhereId = 7,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -359,7 +359,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 13,
                             BusId = 1,
                             FromWhereId = 6,
-                            Price = 100m,
+                            Price = 229m,
                             ToWhereId = 8,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -369,7 +369,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 14,
                             BusId = 1,
                             FromWhereId = 6,
-                            Price = 100m,
+                            Price = 399m,
                             ToWhereId = 2,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -379,7 +379,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 15,
                             BusId = 1,
                             FromWhereId = 7,
-                            Price = 100m,
+                            Price = 449m,
                             ToWhereId = 8,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -389,7 +389,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 16,
                             BusId = 1,
                             FromWhereId = 7,
-                            Price = 100m,
+                            Price = 149m,
                             ToWhereId = 2,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -399,7 +399,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 17,
                             BusId = 1,
                             FromWhereId = 7,
-                            Price = 100m,
+                            Price = 129m,
                             ToWhereId = 1,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -409,7 +409,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 18,
                             BusId = 1,
                             FromWhereId = 8,
-                            Price = 100m,
+                            Price = 449m,
                             ToWhereId = 2,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -419,7 +419,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 19,
                             BusId = 1,
                             FromWhereId = 8,
-                            Price = 100m,
+                            Price = 449m,
                             ToWhereId = 1,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -429,7 +429,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 20,
                             BusId = 1,
                             FromWhereId = 2,
-                            Price = 100m,
+                            Price = 149m,
                             ToWhereId = 1,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -439,7 +439,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 21,
                             BusId = 1,
                             FromWhereId = 5,
-                            Price = 100m,
+                            Price = 399m,
                             ToWhereId = 1,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -449,7 +449,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 22,
                             BusId = 1,
                             FromWhereId = 5,
-                            Price = 100m,
+                            Price = 129m,
                             ToWhereId = 4,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -459,7 +459,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 23,
                             BusId = 1,
                             FromWhereId = 5,
-                            Price = 100m,
+                            Price = 229m,
                             ToWhereId = 3,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -469,7 +469,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 24,
                             BusId = 1,
                             FromWhereId = 5,
-                            Price = 100m,
+                            Price = 229m,
                             ToWhereId = 2,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -479,7 +479,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 25,
                             BusId = 1,
                             FromWhereId = 4,
-                            Price = 100m,
+                            Price = 229m,
                             ToWhereId = 3,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -489,7 +489,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 26,
                             BusId = 1,
                             FromWhereId = 4,
-                            Price = 100m,
+                            Price = 399m,
                             ToWhereId = 2,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -499,7 +499,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 27,
                             BusId = 1,
                             FromWhereId = 4,
-                            Price = 100m,
+                            Price = 449m,
                             ToWhereId = 1,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -509,7 +509,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 28,
                             BusId = 1,
                             FromWhereId = 3,
-                            Price = 100m,
+                            Price = 449m,
                             ToWhereId = 2,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -519,7 +519,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 29,
                             BusId = 1,
                             FromWhereId = 3,
-                            Price = 100m,
+                            Price = 229m,
                             ToWhereId = 1,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -529,7 +529,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 30,
                             BusId = 1,
                             FromWhereId = 2,
-                            Price = 100m,
+                            Price = 129m,
                             ToWhereId = 1,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -539,7 +539,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 31,
                             BusId = 1,
                             FromWhereId = 1,
-                            Price = 100m,
+                            Price = 449m,
                             ToWhereId = 6,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -549,7 +549,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 32,
                             BusId = 1,
                             FromWhereId = 1,
-                            Price = 100m,
+                            Price = 419m,
                             ToWhereId = 2,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -559,7 +559,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 33,
                             BusId = 1,
                             FromWhereId = 1,
-                            Price = 100m,
+                            Price = 229m,
                             ToWhereId = 8,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -569,7 +569,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 34,
                             BusId = 1,
                             FromWhereId = 1,
-                            Price = 100m,
+                            Price = 419m,
                             ToWhereId = 7,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -579,7 +579,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 35,
                             BusId = 1,
                             FromWhereId = 2,
-                            Price = 100m,
+                            Price = 419m,
                             ToWhereId = 8,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -589,7 +589,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 36,
                             BusId = 1,
                             FromWhereId = 2,
-                            Price = 100m,
+                            Price = 149m,
                             ToWhereId = 7,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -599,7 +599,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 37,
                             BusId = 1,
                             FromWhereId = 2,
-                            Price = 100m,
+                            Price = 419m,
                             ToWhereId = 6,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -609,7 +609,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 38,
                             BusId = 1,
                             FromWhereId = 8,
-                            Price = 100m,
+                            Price = 229m,
                             ToWhereId = 7,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -619,7 +619,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 39,
                             BusId = 1,
                             FromWhereId = 8,
-                            Price = 100m,
+                            Price = 449m,
                             ToWhereId = 6,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -629,7 +629,7 @@ namespace BusTicketReservation.Data.Migrations
                             TripId = 40,
                             BusId = 1,
                             FromWhereId = 7,
-                            Price = 100m,
+                            Price = 399m,
                             ToWhereId = 6,
                             TripDate = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             TripTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)

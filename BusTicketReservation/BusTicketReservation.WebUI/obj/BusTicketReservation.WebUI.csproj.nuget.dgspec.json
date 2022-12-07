@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj": {}
+    "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
+    "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
+        "projectUniqueName": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
         "projectName": "BusTicketReservation.Business",
-        "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
-        "packagesPath": "C:\\Users\\ÖĞLE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Business\\obj\\",
+        "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
+        "packagesPath": "C:\\Users\\irem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ÖĞLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
-                "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj"
+              "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
+                "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj"
               }
             }
           }
@@ -49,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,21 +63,94 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
+    "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Core\\BusTicketReservation.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
-        "projectName": "BusTicketReservation.Data",
-        "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
-        "packagesPath": "C:\\Users\\ÖĞLE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Data\\obj\\",
+        "projectUniqueName": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Core\\BusTicketReservation.Core.csproj",
+        "projectName": "BusTicketReservation.Core",
+        "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Core\\BusTicketReservation.Core.csproj",
+        "packagesPath": "C:\\Users\\irem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ÖĞLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
+        "projectName": "BusTicketReservation.Data",
+        "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
+        "packagesPath": "C:\\Users\\irem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,8 +164,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
-                "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
+              "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+                "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
               }
             }
           }
@@ -102,9 +180,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -123,7 +201,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -132,21 +211,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+    "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
         "projectName": "BusTicketReservation.Entity",
-        "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
-        "packagesPath": "C:\\Users\\ÖĞLE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
+        "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+        "packagesPath": "C:\\Users\\irem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ÖĞLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,7 +260,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -186,21 +270,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj": {
+    "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
         "projectName": "BusTicketReservation.WebUI",
-        "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
-        "packagesPath": "C:\\Users\\ÖĞLE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.WebUI\\obj\\",
+        "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
+        "packagesPath": "C:\\Users\\irem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.WebUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ÖĞLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -214,8 +302,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
-                "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj"
+              "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
+                "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj"
+              },
+              "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Core\\BusTicketReservation.Core.csproj": {
+                "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Core\\BusTicketReservation.Core.csproj"
               }
             }
           }
@@ -230,11 +321,27 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Iyzipay": {
+              "target": "Package",
+              "version": "[2.1.46, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -243,7 +350,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -255,7 +363,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

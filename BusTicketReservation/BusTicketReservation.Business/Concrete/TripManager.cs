@@ -19,14 +19,14 @@ namespace BusTicketReservation.Business.Concrete
             _tripRepository = tripRepository;
         }
 
-        public Task CreateAsync(Trip trip)
+        public async Task CreateAsync(Trip trip)
         {
-            throw new NotImplementedException();
+            await _tripRepository.CreateAsync(trip);
         }
 
-        public void Delete(int id)
+        public void Delete(Trip trip)
         {
-            throw new NotImplementedException();
+            _tripRepository.Delete(trip);
         }
 
         public async Task<List<Trip>> GetAllAsync()
@@ -34,9 +34,39 @@ namespace BusTicketReservation.Business.Concrete
             return await _tripRepository.GetAllAsync();
         }
 
-        public Task<Trip> GetByIdAsync(int id)
+        public async Task<Trip> GetBusInfo(int id)
         {
-            throw new NotImplementedException();
+            return await _tripRepository.GetBusInfo(id);
+        }
+
+        public async Task<Trip> GetByIdAsync(int id)
+        {
+          return  await _tripRepository.GetByIdAsync(id);
+        }
+
+        public decimal GetPrice(int id)
+        {
+          return  _tripRepository.GetPrice(id);
+        }
+
+        public async Task<Trip> GetSeatCapacity(int id)
+        {
+           return await _tripRepository.GetSeatCapacity(id);
+        }
+
+        public int GetSeats(int id)
+        {
+            return _tripRepository.GetSeats(id);
+        }
+
+        public async Task<Trip> GetTripById(int id)
+        {
+            return await _tripRepository.GetTripById(id);
+        }
+
+        public int GetTrips(int tripId)
+        {
+            return _tripRepository.GetTrips(tripId);
         }
 
         public async Task<List<Trip>> GetTripsAsync(int fromWhereId, int toWhereId, DateTime tripDate)
@@ -44,9 +74,11 @@ namespace BusTicketReservation.Business.Concrete
             return await _tripRepository.GetTripsAsync(fromWhereId,  toWhereId,  tripDate);
         }
 
+       
+
         public void Update(Trip trip)
         {
-            throw new NotImplementedException();
+            _tripRepository.Update(trip);
         }
     }
 }

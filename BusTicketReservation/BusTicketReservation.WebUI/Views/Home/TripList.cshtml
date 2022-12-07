@@ -8,66 +8,72 @@
 }
 else
 {
-    <form asp-controller="Home" asp-action="Passenger">
-    <h3>Select Trip</h3>
-    @foreach (var trips in Model)
-    {
-        
+    <form asp-controller="Home" asp-action="TicketReservation" method="get">
+        <h3>Select Trip</h3>
+        @foreach (var trips in Model)
+        {
+            <input name="TripId" type="hidden" value=@trips.TripId />
+            <input name="BusId" type="hidden" value=@trips.BusId />
 
-        <div class="card mt-2 justify-content-between">
-            <div class="card-body" style="background-color:#FFFFFF">
-                <div class="row justify-content-around fw-bold">
-                    <div class="col-md-2">
-                        From Where 
-                    </div>
-                    <div class="col-md-1">
+            <div class="card mt-2 shadow justify-content-between">
+                <div class="card-body" style="background-color:#FFFFFF">
+                    <div class="row justify-content-around fw-bold">
+                        <div class="col-md-2">
+                            From Where
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                        <div class="col-md-2">
+                            To Where
+                        </div>
+                        <div class="col-md-2">
 
+                            Time
+                        </div>
+                        <div class="col-md-2">
+                            Price
+                        </div>
+                        <div class="col-md-3">
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        To Where
-                    </div>
-                    <div class="col-md-2">
-                        
-                        Time
-                    </div>
-                    <div class="col-md-2">
-                        Price
-                    </div>
-                    <div class="col-md-3">
+                    <hr>
+                    <div class="row ">
+                        <div class="col-md-2">
+                            @trips.FromWhere.CityName
+                        </div>
+                        <div class="col-md-1 ps-0">
+                                <i class="fa-solid fa-wifi"></i>
+                                <i class="fa-solid fa-utensils"></i>
+                                <i class="fa-solid fa-tv"></i>                    
+                            
+                        </div>
+                        <div class="col-md-2">
+                            @trips.ToWhere.CityName
+                        </div>
+                        <div class="col-md-2">
 
+                            @trips.TripTime.ToString("t")
+                        </div>
+                        <div class="col-md-2">
+                            @trips.Price ₺
+                        </div>
+                        <div class="col-md-3 ">
+                            <a class="btn btn-sm btn-continue fw-bold" asp-controller="Home" asp-action="TicketReservation" asp-route-id=@trips.TripId class="btn btn-primary">Continue</a>
+
+                            @*<button class="btn btn-sm btn-continue fw-bold" type="submit"> Continue ></button>*@
+                        </div>
                     </div>
+
                 </div>
-                <hr>
-                <div class="row ">
-                    <div class="col-md-2">
-                        @trips.FromWhere.CityName 
-                    </div>
-                    <div class="col-md-1">
-                        <i class="fa-solid fa-arrow-right"></i>
-
-                    </div>
-                    <div class="col-md-2">
-                        @trips.ToWhere.CityName
-                    </div>
-                    <div class="col-md-2">
-                        
-                        @trips.TripTime.ToString("t")
-                    </div>
-                    <div class="col-md-2">
-                        @trips.Price ₺
-                    </div>
-                    <div class="col-md-3 ">
-                            <button class="btn btn-sm btn-continue fw-bold"  type="submit"> Continue ></button>
-                </div>
-                </div>
-                
             </div>
-        </div>
 
 
 
 
-    }
+        }
     </form>
 }
 
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

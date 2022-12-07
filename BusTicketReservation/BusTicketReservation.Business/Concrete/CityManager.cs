@@ -19,14 +19,14 @@ namespace BusTicketReservation.Business.Concrete
             _cityRepository = cityRepository;
         }
 
-        public Task CreateAsync(City city)
+        public async Task CreateAsync(City city)
         {
-            throw new NotImplementedException();
+           await _cityRepository.CreateAsync(city);
         }
 
-        public void Delete(int id)
+        public void Delete(City city)
         {
-            throw new NotImplementedException();
+            _cityRepository.Delete(city);
         }
 
         public async Task<List<City>> GellAllCitiesAsync(int id)
@@ -46,7 +46,7 @@ namespace BusTicketReservation.Business.Concrete
 
         public void Update(City city)
         {
-            throw new NotImplementedException();
+             _cityRepository.Update(city);
         }
     }
 }

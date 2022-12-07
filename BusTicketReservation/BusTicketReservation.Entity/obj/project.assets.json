@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ÖĞLE\\.nuget\\packages\\": {}
+    "C:\\Users\\irem\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
       "projectName": "BusTicketReservation.Entity",
-      "projectPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
-      "packagesPath": "C:\\Users\\ÖĞLE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ÖĞLE\\Desktop\\MyProjects\\MyProjects\\Proje\\15.11.2022\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
+      "projectPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+      "packagesPath": "C:\\Users\\irem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\irem\\Desktop\\MyProject\\off\\Proje_OtobüsBiletiRezervasyon\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ÖĞLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +56,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

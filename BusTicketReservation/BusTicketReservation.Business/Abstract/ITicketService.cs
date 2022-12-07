@@ -13,7 +13,11 @@ namespace BusTicketReservation.Business.Abstract
         Task<List<Ticket>> GetAllAsync();
         Task CreateAsync(Ticket ticket);
         void Update(Ticket ticket);
-        void Delete(int id);
+        void Delete(Ticket ticket);
 
+        Task<Ticket> GetTicketDetails(int id);
+
+        Task<Ticket> GetTicketByTrip(int id);
+        List<int> GetReservedSeat(int id);
     }
 }

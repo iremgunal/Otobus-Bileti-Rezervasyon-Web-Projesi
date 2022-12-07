@@ -23,6 +23,11 @@ namespace BusTicketReservation.Business.Concrete
             await _passengerRepository.CreateAsync(passenger);
         }
 
+        public async Task CreateAsync(Passenger passenger, int seatNumber, int id)
+        {
+            await _passengerRepository.CreateAsync(passenger, seatNumber, id);
+        }
+
         public void Delete(int id)
         {
             throw new NotImplementedException();
@@ -37,6 +42,8 @@ namespace BusTicketReservation.Business.Concrete
         {
             return await _passengerRepository.GetByIdAsync(id);
         }
+
+       
 
         public void Update(Passenger passenger)
         {

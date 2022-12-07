@@ -1,0 +1,93 @@
+﻿@model TripEditModel
+
+<h1>Edit Trip</h1>
+<hr />
+<form asp-controller="Admin" asp-action="TripEdit" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="TripId" value=@Model.TripId />
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group row mb-2">
+                <div class="col-md-3"> <label asp-for="FromWhereId">From Where</label></div>
+                <div class="col-md-4">
+                    <select class="form-select " asp-for="FromWhereId">
+                        <option selected>From Where </option>
+
+                        @foreach (var city in Model.Cities)
+                        {
+                            <option value="@city.CityId">@city.CityName </option>
+
+                        }
+
+                    </select>
+                </div>
+
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3"> <label asp-for="ToWhereId"> To Where</label></div>
+                <div class="col-md-4">
+                    <select class="form-select mt-2" asp-for="ToWhereId">
+                        <option selected>To Where </option>
+
+                        @foreach (var city in Model.Cities)
+                        {
+                            <option value="@city.CityId"> @city.CityName </option>
+
+
+                        }
+
+                    </select>
+                </div>
+
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label asp-for="TripTime"></label>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control " type="time" asp-for="TripTime" />
+                </div>
+                <span asp-validation-for="TripTime" class="text-danger"></span>
+            </div>
+            <div class="form-group  row mb-2">
+                <div class="col-md-3">
+                    <label asp-for="TripDate"></label>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control  " type="date" asp-for="TripDate" />
+                </div>
+                <span asp-validation-for="TripDate" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label asp-for="BusId"></label>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control " type="text" asp-for="BusId" />
+
+                </div>
+                <span asp-validation-for="BusId" class="text-danger"></span>
+
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label asp-for="Price"></label>
+                </div>
+                <div class="col-md-4">
+                    <input class="form-control "type="text" asp-for="Price" />
+
+                </div>
+                <span asp-validation-for="Price" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-4 offset-3  ">
+                    <button class="form-control btn btn-sm btn-continue fw-bold" type="submit">Save Changes</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</form>
+
